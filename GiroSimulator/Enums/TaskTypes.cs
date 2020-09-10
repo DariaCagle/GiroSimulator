@@ -11,6 +11,7 @@ namespace GiroSimulator.Enums
         Task = 1,
         Bug = 2,
         CR = 3,
-        Story = 4
+        Story = 4,
+        SubTask = 5
     }
 }

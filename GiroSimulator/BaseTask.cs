@@ -9,6 +9,10 @@ namespace GiroSimulator
 {
     public abstract class BaseTask
     {
+        public BaseTask()
+        {
+
+        }
         public BaseTask(double estimation, TaskTypes type, string title, string description, User creator, Status status = Status.BackLog)
         {
             Estimation = estimation;

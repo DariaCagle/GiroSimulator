@@ -8,6 +8,10 @@ namespace GiroSimulator
 {
     public class User
     {
+        public User()
+        {
+
+        }
         public User(string firstName, string lastName, string image)
         {
             FirstName = firstName;
